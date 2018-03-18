@@ -51,4 +51,4 @@ setTimeout(() => {
   log(chalk.cyanBright('Yay for cyan ') + chalk.white.bgCyanBright('colored text!'));
   log(chalk.rgb(123, 45, 67).underline('Underlined reddish color'));
   log(rule);
-}, 1000);
+}, 1500);
