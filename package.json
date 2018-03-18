@@ -4,7 +4,7 @@
   "description": "A CLI to install Craftyons",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "craftyons": "craftyons.js"
   },
   "keywords": [
     "tachyons",
