@@ -1,0 +1,19 @@
+{
+  "name": "craftyons-installer",
+  "version": "0.0.1",
+  "description": "A CLI to install Craftyons",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "tachyons",
+    "craftcms",
+    "craftyons"
+  ],
+  "author": "@j-greig",
+  "license": "MIT",
+  "dependencies": {
+    "ora": "^2.0.0"
+  }
+}
