@@ -2,6 +2,7 @@ const ora = require('ora');
 const chalk = require('chalk');
 const log = console.log;
 const rule = chalk.blue('\n------------------');
+const program = require('commander');
 
 
 log(rule);
@@ -18,6 +19,9 @@ log(chalk.yellow(
 log(rule);
 
 const spinner = ora('Loading Craftyons').start();
+
+program
+  .command('composer create-project graphicalhouse/craftyons . -s RC')
 
 setTimeout(() => {
   log(rule);
